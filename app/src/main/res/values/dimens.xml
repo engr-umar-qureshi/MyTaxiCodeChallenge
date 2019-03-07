@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_focus">18sp</dimen>
+    <dimen name="text_size_heading">20sp</dimen>
+
+    <dimen name="space_visibility">5dp</dimen>
+    <dimen name="space_item">10dp</dimen>
+    <dimen name="space_gap">15dp</dimen>
+    <dimen name="space_long_gap">25dp</dimen>
+
+    <dimen name="divider_narrow">1dp</dimen>
+    <dimen name="divider_normal">2dp</dimen>
+    <dimen name="divider_wide">3dp</dimen>
+
+</resources>

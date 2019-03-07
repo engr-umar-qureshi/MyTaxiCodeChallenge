@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyTaxiCodeChallenge</string>
+
+    <string name="txt_network_loading">Please wait, Performing network operation</string>
+    <string name="txt_ok">Ok</string>
+    <string name="title_activity_fleet_map">Fleet Map</string>
+
+</resources>

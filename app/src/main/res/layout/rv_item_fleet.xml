@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackgroundMain"
+    android:padding="@dimen/space_visibility"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        style="@style/FleetCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_visibility">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/txt_vehicle_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:layout_gravity="center_vertical"
+                android:drawablePadding="@dimen/space_visibility"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/space_item"
+                android:text="[Vehicle Type]"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/colorTextOnAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="@dimen/divider_normal"
+                android:layout_height="match_parent"
+                android:background="@color/colorDividerOnAccent"
+                android:layout_marginTop="@dimen/space_item"
+                android:layout_marginBottom="@dimen/space_item"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/space_visibility"
+                android:paddingBottom="@dimen/space_visibility"
+                android:layout_marginLeft="@dimen/space_visibility">
+
+                <TextView
+                    android:id="@+id/txt_vehicle_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="[Vehicle Id]"
+                    android:textColor="@color/colorTextOnAccent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_vehicle_lat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="[Vehicle Latitude]"
+                    android:textColor="@color/colorTextOnAccent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_vehicle_lon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="[Vehicle Longitude]"
+                    android:textColor="@color/colorTextOnAccent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_vehicle_heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="[Vehicle Heading]"
+                    android:textColor="@color/colorTextOnAccent"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
