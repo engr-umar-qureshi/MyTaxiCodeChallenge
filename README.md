@@ -12,7 +12,37 @@ Use this endpoint to get the vehicles: https://fake-poi-api.mytaxi.com/?p1Lat={L
 
 ### Example of a response:
 ```
-{ "poiList": [{   "id": 439670,   "coordinate": {    "latitude": 53.46036882190762,    "longitude": 9.909716434648558   },   "fleetType": "POOLING",   "heading": 344.19529122029735  },  {   "id": 739330,   "coordinate": {    "latitude": 53.668806556867445,    "longitude": 10.019908942943804   },   "fleetType": "TAXI",   "heading": 245.2005654202569  },  {   "id": 145228,   "coordinate": {    "latitude": 53.58500747958201,    "longitude": 9.807045083858156   },   "fleetType": "POOLING",   "heading": 71.63840043828377  } ] }
+{
+  "poiList": [
+    {
+      "id": 439670,
+      "coordinate": {
+        "latitude": 53.46036882190762,
+        "longitude": 9.909716434648558
+      },
+      "fleetType": "POOLING",
+      "heading": 344.19529122029735
+    },
+    {
+      "id": 739330,
+      "coordinate": {
+        "latitude": 53.668806556867445,
+        "longitude": 10.019908942943804
+      },
+      "fleetType": "TAXI",
+      "heading": 245.2005654202569
+    },
+    {
+      "id": 145228,
+      "coordinate": {
+        "latitude": 53.58500747958201,
+        "longitude": 9.807045083858156
+      },
+      "fleetType": "POOLING",
+      "heading": 71.63840043828377
+    }
+  ]
+}
 ```
 
 > Fill the list items with some useful vehicle-information provided by the JSON response. You can create custom list items with selected > vehicle data - simply impress us  
