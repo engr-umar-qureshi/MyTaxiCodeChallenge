@@ -1,5 +1,7 @@
 # MyTaxiCodeChallenge
 
+**Note: To run the project you need to add your google_maps_api.xml in res/values/ directory for google map key**
+
 **MVVM + Retrofit + RxAndroid + AndroidX**
 
 ## Android Candidate Test (Applicant Coding Challenge) from MyTaxi
